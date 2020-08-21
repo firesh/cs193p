@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212C7E4124EE601500CD8BDA /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C7E4024EE601500CD8BDA /* Grid.swift */; };
+		212C7E4324EE646B00CD8BDA /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C7E4224EE646B00CD8BDA /* GridLayout.swift */; };
+		212C7E4524EE765700CD8BDA /* Array+Indentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C7E4424EE765700CD8BDA /* Array+Indentifiable.swift */; };
+		215D309A24F0492C00DD910F /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215D309924F0492C00DD910F /* Array+Only.swift */; };
 		217D618524E84D6F009D35DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D618424E84D6F009D35DF /* AppDelegate.swift */; };
 		217D618724E84D6F009D35DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D618624E84D6F009D35DF /* SceneDelegate.swift */; };
 		217D618924E84D6F009D35DF /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D618824E84D6F009D35DF /* EmojiMemoryGameView.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212C7E4024EE601500CD8BDA /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		212C7E4224EE646B00CD8BDA /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		212C7E4424EE765700CD8BDA /* Array+Indentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Indentifiable.swift"; sourceTree = "<group>"; };
+		215D309924F0492C00DD910F /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		217D618124E84D6F009D35DF /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		217D618424E84D6F009D35DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		217D618624E84D6F009D35DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,14 +68,18 @@
 		217D618324E84D6F009D35DF /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				217D619224E84D73009D35DF /* Info.plist */,
 				217D618424E84D6F009D35DF /* AppDelegate.swift */,
-				217D618624E84D6F009D35DF /* SceneDelegate.swift */,
-				217D618824E84D6F009D35DF /* EmojiMemoryGameView.swift */,
-				21D9FB8724EA8AC7002EEC94 /* MemoryGame.swift */,
 				21C172E324EC428500F21981 /* EmojiMemoryGame.swift */,
+				217D618824E84D6F009D35DF /* EmojiMemoryGameView.swift */,
+				215D309924F0492C00DD910F /* Array+Only.swift */,
+				212C7E4424EE765700CD8BDA /* Array+Indentifiable.swift */,
+				212C7E4024EE601500CD8BDA /* Grid.swift */,
+				212C7E4224EE646B00CD8BDA /* GridLayout.swift */,
+				21D9FB8724EA8AC7002EEC94 /* MemoryGame.swift */,
+				217D618624E84D6F009D35DF /* SceneDelegate.swift */,
 				217D618A24E84D73009D35DF /* Assets.xcassets */,
 				217D618F24E84D73009D35DF /* LaunchScreen.storyboard */,
-				217D619224E84D73009D35DF /* Info.plist */,
 				217D618C24E84D73009D35DF /* Preview Content */,
 			);
 			path = Memorize;
@@ -155,8 +167,12 @@
 				217D618524E84D6F009D35DF /* AppDelegate.swift in Sources */,
 				217D618724E84D6F009D35DF /* SceneDelegate.swift in Sources */,
 				21D9FB8824EA8AC7002EEC94 /* MemoryGame.swift in Sources */,
+				215D309A24F0492C00DD910F /* Array+Only.swift in Sources */,
 				217D618924E84D6F009D35DF /* EmojiMemoryGameView.swift in Sources */,
+				212C7E4524EE765700CD8BDA /* Array+Indentifiable.swift in Sources */,
 				21C172E424EC428500F21981 /* EmojiMemoryGame.swift in Sources */,
+				212C7E4324EE646B00CD8BDA /* GridLayout.swift in Sources */,
+				212C7E4124EE601500CD8BDA /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
